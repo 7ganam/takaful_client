@@ -75,7 +75,7 @@ export default function Hero() {
           className={`${styles.title} font-noto text-right`}
           style={{ textAlign: "right", lineHeight: "70px" }}
         >
-          مبادرة تكافل الغذاء
+          مبادرة مساحات الانبساط التعاونية
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 5 }}
@@ -84,7 +84,7 @@ export default function Hero() {
           className={styles.desc}
           style={{ fontSize: "20px", textAlign: "right" }}
         >
-          مبادرة مصرية للتكافل و توفير الغذاء للأسر المصرية. شارك معنا بالمساعدة
+          مبادرة مصرية للتعاون و توفير الغذاء للأسر المصرية. شارك معنا بالمساعدة
           في ايصالنا للأسر اللتي قد تسعد بالمساعدة.
         </motion.p>
         <motion.div

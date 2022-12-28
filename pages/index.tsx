@@ -8,13 +8,14 @@ import Hero from "../components/hero";
 import Remote from "../components/remote";
 import CTAAlt from "../components/cta_alt";
 import Footer from "../components/footer";
-
+import Register from "../components/register";
 const Home: NextPage = () => {
   return (
     <>
       <Hero />
       <Features />
-      <Blog />
+      {/* <Blog />/ */}
+      <Register />
       {/* <CTA />
       <Remote />
       <Branches />
